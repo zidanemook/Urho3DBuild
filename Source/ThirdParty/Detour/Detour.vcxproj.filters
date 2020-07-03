@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourNavMeshQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Source\DetourNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourNavMeshQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\Include\DetourStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3D\Source\ThirdParty\Detour\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E1ED2DB-232A-3909-8632-670AF8FF310E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4556C2F0-FE7C-3ED7-8977-3A66CFFF2FB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

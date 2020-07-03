@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckSymbolExists.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/SDL/CMakeLists.txt
+F:/GitHub/Urho3D/Source/ThirdParty/SDL/cmake/macros.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/SDL/cmake/sdlchecks.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/SDL/include/SDL_config.h.cmake

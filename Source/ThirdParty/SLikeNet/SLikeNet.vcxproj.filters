@@ -1,0 +1,1752 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Base64Encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\BitStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CCRakNetSlidingWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CCRakNetUDT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CheckSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CloudClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CloudCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CloudServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\CommandParserInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ConnectionGraph2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ConsoleServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DR_SHA1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DS_BytePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DS_ByteQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DS_HuffmanEncodingTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DS_Table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DataCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DirectoryDeltaTransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\DynDNS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\EmailSender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\EpochTimeToString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\FileList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\FileListTransfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\FileOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\FormatString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\FullyConnectedMesh2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\GetTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Getche.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Gets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\GridSectorizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\HTTPConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\HTTPConnection2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\IncrementalReadInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Itoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\LinuxStrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\LocklessTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\LogCommandParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\MessageFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NatPunchthroughClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NatPunchthroughServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NatTypeDetectionClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NatTypeDetectionCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NatTypeDetectionServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NetworkIDManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\NetworkIDObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PS4Includes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PacketConsoleLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PacketFileLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PacketLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PacketOutputWindowLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PacketizedTCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\PluginInterface2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RPC4Plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Rackspace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakMemoryOverride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetCommandParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_360_720.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_Berkley.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_Berkley_NativeClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_NativeClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_PS3_PS4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_PS4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_Vita.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_WindowsStore8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_Windows_Linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetSocket2_Windows_Linux_360.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetTransport2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakNetTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakPeer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakSleep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RakWString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Rand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RandSync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ReadyEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\RelayPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ReliabilityLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ReplicaManager3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\Router2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SecureHandshake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SendToThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SignaledEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SimpleMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SocketLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\StatisticsHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\StringCompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\StringTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\SuperFastHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TCPInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TableSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TeamBalancer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TeamManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TelnetTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\ThreadsafePacketLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\TwoWayAuthentication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\UDPForwarder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\UDPProxyClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\UDPProxyCoordinator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\UDPProxyServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\VariableDeltaSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\VariableListDeltaTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\VariadicSQLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\VitaIncludes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\WSAStartupSingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\_FindFirst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\gettimeofday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\linux_adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\src\osx_adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\AutopatcherPatchContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\AutopatcherRepositoryInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Base64Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\BitStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CCRakNetSlidingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CCRakNetUDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CheckSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CloudClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CloudCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CloudServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\CommandParserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ConnectionGraph2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ConsoleServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DR_SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_BPlusTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_BinarySearchTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_BytePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_ByteQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_HuffmanEncodingTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Multilist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_OrderedChannelHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_OrderedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_QueueLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_RangeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DS_WeightedGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DataCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DirectoryDeltaTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\DynDNS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\EmailSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\EmptyHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\EpochTimeToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FileListNodeContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FileListTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FileListTransferCBInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FileOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FormatString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\FullyConnectedMesh2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\GetTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Getche.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Gets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\GridSectorizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\HTTPConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\HTTPConnection2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\IncrementalReadInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\InternalPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Kbhit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\LinuxStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\LocklessTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\LogCommandParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\MTUSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\MessageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\MessageIdentifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NatPunchthroughClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NatPunchthroughServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NatTypeDetectionClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NatTypeDetectionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NatTypeDetectionServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NativeFeatureIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NativeFeatureIncludesOverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NativeTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NetworkIDManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\NetworkIDObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PS3Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PS4Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketConsoleLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketFileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketOutputWindowLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketPriority.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PacketizedTCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\PluginInterface2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RPC4Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Rackspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakAlloca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakMemoryOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetCommandParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetDefinesOverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetSmartPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetSocket2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetTransport2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakNetVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakPeerInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakSleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RakWString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RandSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ReadyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RefCountedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\RelayPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ReliabilityLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ReplicaEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ReplicaManager3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\Router2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SecureHandshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SendToThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SignaledEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SimpleMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SimpleTCPServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SingleProducerConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SocketDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SocketIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SocketLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\StatisticsHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\StringCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\StringTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\SuperFastHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TCPInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TableSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TeamBalancer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TeamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TelnetTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\ThreadsafePacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TransportInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\TwoWayAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\UDPForwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\UDPProxyClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\UDPProxyCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\UDPProxyCoordinator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\UDPProxyServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\VariableDeltaSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\VariableListDeltaTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\VariadicSQLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\VitaIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\WSAStartupSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\WindowsIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\XBox360Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\_FindFirst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\AutopatcherPatchContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\AutopatcherRepositoryInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Base64Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\BitStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CCRakNetSlidingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CCRakNetUDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CheckSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CloudClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CloudCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CloudServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\CommandParserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ConnectionGraph2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ConsoleServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DR_SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_BPlusTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_BinarySearchTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_BytePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_ByteQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_HuffmanEncodingTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Multilist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_OrderedChannelHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_OrderedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_QueueLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_RangeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DS_WeightedGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DataCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DirectoryDeltaTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\DynDNS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\EmailSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\EmptyHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\EpochTimeToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FileListNodeContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FileListTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FileListTransferCBInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FileOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FormatString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\FullyConnectedMesh2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\GetTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Getche.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Gets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\GridSectorizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\HTTPConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\HTTPConnection2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\IncrementalReadInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\InternalPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Kbhit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\LinuxStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\LocklessTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\LogCommandParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\MTUSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\MessageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\MessageIdentifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NatPunchthroughClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NatPunchthroughServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NatTypeDetectionClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NatTypeDetectionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NatTypeDetectionServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NativeFeatureIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NativeFeatureIncludesOverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NativeTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NetworkIDManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\NetworkIDObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PS3Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PS4Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketConsoleLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketFileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketOutputWindowLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketPriority.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PacketizedTCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\PluginInterface2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\RPC4Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Rackspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\RandSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ReadyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\RefCountedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\RelayPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ReliabilityLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ReplicaEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ReplicaManager3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\Router2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SecureHandshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SendToThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SignaledEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SimpleMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SimpleTCPServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SingleProducerConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SocketDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SocketIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SocketLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\StatisticsHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\StringCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\StringTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\SuperFastHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TCPInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TableSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TeamBalancer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TeamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TelnetTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\ThreadsafePacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TransportInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\TwoWayAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\UDPForwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\UDPProxyClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\UDPProxyCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\UDPProxyCoordinator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\UDPProxyServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\VariableDeltaSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\VariableListDeltaTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\VariadicSQLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\VitaIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\WSAStartupSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\WindowsIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\XBox360Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\_FindFirst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\alloca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\commandparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\defineoverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\linux_adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\memoryoverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\osx_adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\peer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\peerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\smartptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\socket2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\transport2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\include\slikenet\wstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\AutopatcherPatchContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\AutopatcherRepositoryInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Base64Encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\BitStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CCRakNetSlidingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CCRakNetUDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CheckSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CloudClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CloudCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CloudServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\CommandParserInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ConnectionGraph2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ConsoleServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DR_SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_BPlusTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_BinarySearchTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_BytePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_ByteQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_HuffmanEncodingTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_HuffmanEncodingTreeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_MemoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Multilist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_OrderedChannelHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_OrderedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_QueueLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_RangeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_ThreadsafeAllocatingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DS_WeightedGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DataCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DirectoryDeltaTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\DynDNS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\EmailSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\EmptyHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\EpochTimeToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FileList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FileListNodeContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FileListTransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FileListTransferCBInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FileOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FormatString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\FullyConnectedMesh2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\GetTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Getche.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Gets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\GridSectorizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\HTTPConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\HTTPConnection2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\IncrementalReadInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\InternalPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Itoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Kbhit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\LinuxStrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\LocklessTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\LogCommandParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\MTUSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\MessageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\MessageIdentifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NatPunchthroughClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NatPunchthroughServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NatTypeDetectionClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NatTypeDetectionCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NatTypeDetectionServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NativeFeatureIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NativeFeatureIncludesOverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NativeTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NetworkIDManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\NetworkIDObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PS3Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PS4Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketConsoleLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketFileLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketOutputWindowLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketPriority.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PacketizedTCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\PluginInterface2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\RPC4Plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Rackspace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\RandSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ReadyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\RefCountedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\RelayPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ReliabilityLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ReplicaEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ReplicaManager3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\Router2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SecureHandshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SendToThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SignaledEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SimpleMutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SimpleTCPServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SingleProducerConsumer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SocketDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SocketIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SocketLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\StatisticsHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\StringCompressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\StringTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\SuperFastHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TCPInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TableSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TeamBalancer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TeamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TelnetTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\ThreadsafePacketLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TransportInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\TwoWayAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\UDPForwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\UDPProxyClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\UDPProxyCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\UDPProxyCoordinator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\UDPProxyServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\VariableDeltaSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\VariableListDeltaTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\VariadicSQLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\VitaIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\WSAStartupSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\WindowsIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\XBox360Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\_FindFirst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\alloca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\commandparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\defineoverrides.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\linux_adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\memoryoverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\osx_adapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\peer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\peerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\smartptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\socket2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\transport2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\Source\slikenet\wstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3D\Source\ThirdParty\SLikeNet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E1ED2DB-232A-3909-8632-670AF8FF310E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4556C2F0-FE7C-3ED7-8977-3A66CFFF2FB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

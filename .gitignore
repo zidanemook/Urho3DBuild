@@ -1,0 +1,8 @@
+
+*.obj
+*.pdb
+*vc.db*
+*.bak
+*.opendb
+*.log
+*.suo

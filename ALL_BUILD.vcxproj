@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{909CD789-989D-3A30-A243-D03850C02DD9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3D\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GitHub/Urho3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GitHub/Urho3D -BF:/GitHub/Urho3DBuild --check-stamp-file F:/GitHub/Urho3DBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\GitHub\Urho3D\CMake\Modules\CheckCompilerToolchain.cmake;F:\GitHub\Urho3D\CMake\Modules\CheckHost.cmake;F:\GitHub\Urho3D\CMake\Modules\FindDirectX.cmake;F:\GitHub\Urho3D\CMake\Modules\GenerateExportHeader.cmake;F:\GitHub\Urho3D\CMake\Modules\UrhoCommon.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GitHub\Urho3DBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GitHub/Urho3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GitHub/Urho3D -BF:/GitHub/Urho3DBuild --check-stamp-file F:/GitHub/Urho3DBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\GitHub\Urho3D\CMake\Modules\CheckCompilerToolchain.cmake;F:\GitHub\Urho3D\CMake\Modules\CheckHost.cmake;F:\GitHub\Urho3D\CMake\Modules\FindDirectX.cmake;F:\GitHub\Urho3D\CMake\Modules\GenerateExportHeader.cmake;F:\GitHub\Urho3D\CMake\Modules\UrhoCommon.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GitHub\Urho3DBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GitHub/Urho3D/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/GitHub/Urho3D -BF:/GitHub/Urho3DBuild --check-stamp-file F:/GitHub/Urho3DBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\GitHub\Urho3D\CMake\Modules\CheckCompilerToolchain.cmake;F:\GitHub\Urho3D\CMake\Modules\CheckHost.cmake;F:\GitHub\Urho3D\CMake\Modules\FindDirectX.cmake;F:\GitHub\Urho3D\CMake\Modules\GenerateExportHeader.cmake;F:\GitHub\Urho3D\CMake\Modules\UrhoCommon.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeCXXCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeRCCompiler.cmake;F:\GitHub\Urho3DBuild\CMakeFiles\3.18.0-rc2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GitHub\Urho3DBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\ZERO_CHECK.vcxproj">
+      <Project>{E45560A0-912F-323E-9163-8446B28AD834}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\01_HelloWorld\01_HelloWorld.vcxproj">
+      <Project>{6AAE0AC7-9DB4-3900-939E-229D82945AC1}</Project>
+      <Name>01_HelloWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\02_HelloGUI\02_HelloGUI.vcxproj">
+      <Project>{DCB65A01-3B15-3F6C-A3FF-B09782F0F70E}</Project>
+      <Name>02_HelloGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\03_Sprites\03_Sprites.vcxproj">
+      <Project>{DC5C26D1-73C6-353C-9D9B-924A73CB988E}</Project>
+      <Name>03_Sprites</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\04_StaticScene\04_StaticScene.vcxproj">
+      <Project>{0CA9F7A0-6A28-3740-8350-B76318E58F64}</Project>
+      <Name>04_StaticScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\05_AnimatingScene\05_AnimatingScene.vcxproj">
+      <Project>{9C03AF05-9E76-3F97-B0FB-4AB55214C59F}</Project>
+      <Name>05_AnimatingScene</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\06_SkeletalAnimation\06_SkeletalAnimation.vcxproj">
+      <Project>{2D289DA1-B120-3A83-8F14-D92B26B85A71}</Project>
+      <Name>06_SkeletalAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\07_Billboards\07_Billboards.vcxproj">
+      <Project>{55BBA167-14F3-37B2-A0B0-5A2276FA3A65}</Project>
+      <Name>07_Billboards</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\08_Decals\08_Decals.vcxproj">
+      <Project>{4F811827-8050-3EC0-A07B-9EDFDACD9444}</Project>
+      <Name>08_Decals</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\09_MultipleViewports\09_MultipleViewports.vcxproj">
+      <Project>{0C831E25-CE82-3760-BFDC-222E519F4AB2}</Project>
+      <Name>09_MultipleViewports</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\10_RenderToTexture\10_RenderToTexture.vcxproj">
+      <Project>{31BA6917-81F6-31FE-99B9-06150F69B970}</Project>
+      <Name>10_RenderToTexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\11_Physics\11_Physics.vcxproj">
+      <Project>{9F62AEA8-8115-3588-9C6E-68C1961DE18E}</Project>
+      <Name>11_Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\12_PhysicsStressTest\12_PhysicsStressTest.vcxproj">
+      <Project>{6E9D3468-2F09-3EC3-9423-10343335D2E1}</Project>
+      <Name>12_PhysicsStressTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\13_Ragdolls\13_Ragdolls.vcxproj">
+      <Project>{CF245A38-51C0-338E-9C65-02E668161D78}</Project>
+      <Name>13_Ragdolls</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\14_SoundEffects\14_SoundEffects.vcxproj">
+      <Project>{D3125EC5-FC4C-3FDB-8D0A-C285B586AE8E}</Project>
+      <Name>14_SoundEffects</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\15_Navigation\15_Navigation.vcxproj">
+      <Project>{5D7447D5-9C27-35EB-8C28-630BA64D2D0E}</Project>
+      <Name>15_Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\16_Chat\16_Chat.vcxproj">
+      <Project>{44B4F27E-6D69-34BE-8B52-C70976C29820}</Project>
+      <Name>16_Chat</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\17_SceneReplication\17_SceneReplication.vcxproj">
+      <Project>{3DC25442-4331-35CF-971B-54EF9D459B63}</Project>
+      <Name>17_SceneReplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\18_CharacterDemo\18_CharacterDemo.vcxproj">
+      <Project>{12462A78-B679-345E-A647-CE94F15D58FC}</Project>
+      <Name>18_CharacterDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\19_VehicleDemo\19_VehicleDemo.vcxproj">
+      <Project>{70D464A0-D345-36A2-802E-2FA526A9735C}</Project>
+      <Name>19_VehicleDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\20_HugeObjectCount\20_HugeObjectCount.vcxproj">
+      <Project>{9E66CF67-CF5F-3661-9C5D-3F815A2BF7C4}</Project>
+      <Name>20_HugeObjectCount</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\21_AngelScriptIntegration\21_AngelScriptIntegration.vcxproj">
+      <Project>{28EBFED7-225C-3898-AE47-C43372174AA2}</Project>
+      <Name>21_AngelScriptIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\22_LuaIntegration\22_LuaIntegration.vcxproj">
+      <Project>{9F4AD0B0-52F3-379D-994A-AC9578A6E5F6}</Project>
+      <Name>22_LuaIntegration</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\23_Water\23_Water.vcxproj">
+      <Project>{94E7A0D1-EEE9-3B52-9890-936E153E486B}</Project>
+      <Name>23_Water</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\24_Urho2DSprite\24_Urho2DSprite.vcxproj">
+      <Project>{2F7068C3-B538-3379-B4B6-F46D2B515824}</Project>
+      <Name>24_Urho2DSprite</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\25_Urho2DParticle\25_Urho2DParticle.vcxproj">
+      <Project>{2CFB7A55-3961-3251-854A-DE937BE8B7CE}</Project>
+      <Name>25_Urho2DParticle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\26_ConsoleInput\26_ConsoleInput.vcxproj">
+      <Project>{0F2667F9-11DA-3A49-8B12-AC055D51FAE1}</Project>
+      <Name>26_ConsoleInput</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\27_Urho2DPhysics\27_Urho2DPhysics.vcxproj">
+      <Project>{3DDDD272-F77E-35E4-B8B6-0DB310B4BE2E}</Project>
+      <Name>27_Urho2DPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\28_Urho2DPhysicsRope\28_Urho2DPhysicsRope.vcxproj">
+      <Project>{D44B9E13-6268-37B6-BDEB-31C8B4644379}</Project>
+      <Name>28_Urho2DPhysicsRope</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\29_SoundSynthesis\29_SoundSynthesis.vcxproj">
+      <Project>{40937C48-270C-3114-98A6-100F2B966B60}</Project>
+      <Name>29_SoundSynthesis</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\30_LightAnimation\30_LightAnimation.vcxproj">
+      <Project>{B85EB071-A54F-389B-B88A-08AECC193F2B}</Project>
+      <Name>30_LightAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\31_MaterialAnimation\31_MaterialAnimation.vcxproj">
+      <Project>{E3E9890D-9D48-32C2-AC7E-D66B03AC78E4}</Project>
+      <Name>31_MaterialAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\32_Urho2DConstraints\32_Urho2DConstraints.vcxproj">
+      <Project>{C91C70C4-C3A7-3082-A7AC-7B55C8F368E1}</Project>
+      <Name>32_Urho2DConstraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\33_Urho2DSpriterAnimation\33_Urho2DSpriterAnimation.vcxproj">
+      <Project>{585DB382-0710-388F-A5F0-A63BE10B3136}</Project>
+      <Name>33_Urho2DSpriterAnimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\34_DynamicGeometry\34_DynamicGeometry.vcxproj">
+      <Project>{05226A01-62EC-34C8-836D-6E425D0AA942}</Project>
+      <Name>34_DynamicGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\35_SignedDistanceFieldText\35_SignedDistanceFieldText.vcxproj">
+      <Project>{09F421AF-B45C-3D89-818A-9361D2F75D4A}</Project>
+      <Name>35_SignedDistanceFieldText</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\36_Urho2DTileMap\36_Urho2DTileMap.vcxproj">
+      <Project>{FACD0AF5-F324-380E-8091-4E42106309FF}</Project>
+      <Name>36_Urho2DTileMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\37_UIDrag\37_UIDrag.vcxproj">
+      <Project>{519423B7-B0D1-3088-88C8-E1B8CEF02244}</Project>
+      <Name>37_UIDrag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\38_SceneAndUILoad\38_SceneAndUILoad.vcxproj">
+      <Project>{623BDAFB-DDE8-3994-8706-DFFE691B6156}</Project>
+      <Name>38_SceneAndUILoad</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\39_CrowdNavigation\39_CrowdNavigation.vcxproj">
+      <Project>{C295DA5E-FA40-35FB-9797-069C583E4FFE}</Project>
+      <Name>39_CrowdNavigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\40_Localization\40_Localization.vcxproj">
+      <Project>{0CC4693D-B205-3279-901B-62863C1AA6B6}</Project>
+      <Name>40_Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\42_PBRMaterials\42_PBRMaterials.vcxproj">
+      <Project>{6DC0B19A-E560-3115-BCD0-E8E9B0963B62}</Project>
+      <Name>42_PBRMaterials</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\43_HttpRequestDemo\43_HttpRequestDemo.vcxproj">
+      <Project>{E97F1CE1-299D-36ED-BB47-F423E2462D1E}</Project>
+      <Name>43_HttpRequestDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\44_RibbonTrailDemo\44_RibbonTrailDemo.vcxproj">
+      <Project>{F8D6B70D-C047-3BFD-A713-DC48F23828BE}</Project>
+      <Name>44_RibbonTrailDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\45_InverseKinematics\45_InverseKinematics.vcxproj">
+      <Project>{CEDA5300-DD34-37FB-8E2C-981785A2A213}</Project>
+      <Name>45_InverseKinematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\46_RaycastVehicle\46_RaycastVehicle.vcxproj">
+      <Project>{E0E197FA-622E-3991-8C05-F924377E21C6}</Project>
+      <Name>46_RaycastVehicle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\47_Typography\47_Typography.vcxproj">
+      <Project>{ED5D5493-E575-3AD9-967F-C6C15FB9646D}</Project>
+      <Name>47_Typography</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\48_Hello3DUI\48_Hello3DUI.vcxproj">
+      <Project>{4EF5BFF1-12F7-3250-B706-0E755A62BE45}</Project>
+      <Name>48_Hello3DUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\49_Urho2DIsometricDemo\49_Urho2DIsometricDemo.vcxproj">
+      <Project>{62EBF493-27F4-3AD0-8F5B-A2F2D70D867A}</Project>
+      <Name>49_Urho2DIsometricDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\50_Urho2DPlatformer\50_Urho2DPlatformer.vcxproj">
+      <Project>{5CA273CC-2301-3C01-BAD8-D0403539994B}</Project>
+      <Name>50_Urho2DPlatformer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\51_Urho2DStretchableSprite\51_Urho2DStretchableSprite.vcxproj">
+      <Project>{A95B4175-9338-372F-B58D-35C7EFA0685A}</Project>
+      <Name>51_Urho2DStretchableSprite</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\52_NATPunchtrough\52_NATPunchtrough.vcxproj">
+      <Project>{1BF02681-1014-3FB6-929B-BC117B955B9E}</Project>
+      <Name>52_NATPunchtrough</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\53_LANDiscovery\53_LANDiscovery.vcxproj">
+      <Project>{64D9AEE2-D13D-3BF2-B156-D7F8C70863C8}</Project>
+      <Name>53_LANDiscovery</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Samples\54_WindowSettingsDemo\54_WindowSettingsDemo.vcxproj">
+      <Project>{E9072E41-48D7-3DC1-AC23-A567037E22DA}</Project>
+      <Name>54_WindowSettingsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\AngelScript\AngelScript.vcxproj">
+      <Project>{640120E7-B0A0-37DD-A6E5-A2F9EA00CA56}</Project>
+      <Name>AngelScript</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\AssetImporter\AssetImporter.vcxproj">
+      <Project>{B3B38AE1-E005-3013-8C15-BB815613F2C0}</Project>
+      <Name>AssetImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Assimp\code\Assimp.vcxproj">
+      <Project>{6703EC29-5DA4-3C03-9148-034E396EDA3B}</Project>
+      <Name>Assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Box2D\Box2D.vcxproj">
+      <Project>{65BC9205-8EE1-3EF3-A1EF-525A60E61954}</Project>
+      <Name>Box2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Bullet\Bullet.vcxproj">
+      <Project>{38A9345F-76DF-3E57-81EB-ADAAB3FB9507}</Project>
+      <Name>Bullet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Civetweb\Civetweb.vcxproj">
+      <Project>{33FBB404-50CE-3F43-82E7-969197450D99}</Project>
+      <Name>Civetweb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Detour\Detour.vcxproj">
+      <Project>{575DA95B-11E4-3465-A63B-C56E6973FA79}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\DetourCrowd\DetourCrowd.vcxproj">
+      <Project>{5760FD8D-5E42-363A-982B-F75C8222087D}</Project>
+      <Name>DetourCrowd</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\DetourTileCache\DetourTileCache.vcxproj">
+      <Project>{ADC1FB3B-A7CF-306D-832A-D2C9A7E0E9EE}</Project>
+      <Name>DetourTileCache</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\ETCPACK\ETCPACK.vcxproj">
+      <Project>{06131638-2BE0-3441-8C40-70F783988EA4}</Project>
+      <Name>ETCPACK</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\FreeType\FreeType.vcxproj">
+      <Project>{38A1339B-7126-3A51-8D85-17626A25F160}</Project>
+      <Name>FreeType</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\LZ4\LZ4.vcxproj">
+      <Project>{3ABE5EF2-A2E5-330D-8DC6-5BEC16AB7645}</Project>
+      <Name>LZ4</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\LibCpuId\LibCpuId.vcxproj">
+      <Project>{E5FC2A4F-01D7-3224-8D83-AF7E59947D22}</Project>
+      <Name>LibCpuId</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Lua\Lua.vcxproj">
+      <Project>{FA24AF04-304B-37C4-9D6C-A35319402FDA}</Project>
+      <Name>Lua</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\OgreImporter\OgreImporter.vcxproj">
+      <Project>{54AE80DB-DD7F-35E0-9C5F-CBF076C37FE7}</Project>
+      <Name>OgreImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\PackageTool\PackageTool.vcxproj">
+      <Project>{BEC80381-B5FB-3FD4-AE60-AF87F2F1C32F}</Project>
+      <Name>PackageTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\PugiXml\PugiXml.vcxproj">
+      <Project>{BE490AB1-B2A9-3B77-98B4-66F57DD1B461}</Project>
+      <Name>PugiXml</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\RampGenerator\RampGenerator.vcxproj">
+      <Project>{C8A13893-C245-3414-B35D-1958623A4B9D}</Project>
+      <Name>RampGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Recast\Recast.vcxproj">
+      <Project>{5AF36211-6669-3595-8E9B-0BC7CEE79D48}</Project>
+      <Name>Recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\SDL\SDL.vcxproj">
+      <Project>{C67535C0-E73C-3C7F-9CC2-5B5B1426E860}</Project>
+      <Name>SDL</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\SLikeNet\SLikeNet.vcxproj">
+      <Project>{F18B07DE-08BB-3DDF-B2D8-04868723E540}</Project>
+      <Name>SLikeNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\STB\STB.vcxproj">
+      <Project>{FA4186CE-11BA-3C22-8EB7-14EAFC187839}</Project>
+      <Name>STB</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\ScriptCompiler\ScriptCompiler.vcxproj">
+      <Project>{D00FE5FB-14F8-34F0-A224-E129538534A3}</Project>
+      <Name>ScriptCompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\SpritePacker\SpritePacker.vcxproj">
+      <Project>{D97F9BF9-4CFB-3A4E-9B5C-D02E30A91AA7}</Project>
+      <Name>SpritePacker</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\StanHull\StanHull.vcxproj">
+      <Project>{6043B08B-5AEF-33AA-B6FF-457B4F170AEF}</Project>
+      <Name>StanHull</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Urho3D\Urho3D.vcxproj">
+      <Project>{03E68B0F-C269-3ADA-853A-EB09567D1C10}</Project>
+      <Name>Urho3D</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\Tools\Urho3DPlayer\Urho3DPlayer.vcxproj">
+      <Project>{7A74AB2C-D879-3DCD-B5BC-F6F85619520F}</Project>
+      <Name>Urho3DPlayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\WebP\WebP.vcxproj">
+      <Project>{8FA3F1BD-B72B-3192-927E-1EC458A85E77}</Project>
+      <Name>WebP</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\ik\ik.vcxproj">
+      <Project>{599CC351-1B44-3ACC-ADBC-9439A5CDDAE3}</Project>
+      <Name>ik</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Lua\lua_interpreter.vcxproj">
+      <Project>{CC36E546-BB86-373B-ABB0-43D45B2ADD09}</Project>
+      <Name>lua_interpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\Lua\luac.vcxproj">
+      <Project>{EC3AB40C-C40F-3AD5-A60D-97F9CDAE88DD}</Project>
+      <Name>luac</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\rapidjson\rapidjson.vcxproj">
+      <Project>{E84181B9-7C40-34AA-AEF1-2EA2536F30CD}</Project>
+      <Name>rapidjson</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\toluapp\src\bin\tolua++.vcxproj">
+      <Project>{79C5AA05-CF1A-3027-87F2-4E58DE0285E2}</Project>
+      <Name>tolua++</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\toluapp\src\lib\toluapp.vcxproj">
+      <Project>{91C4A619-4B21-3634-8F2E-D0384462BDB2}</Project>
+      <Name>toluapp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

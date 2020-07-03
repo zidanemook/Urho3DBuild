@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\lz4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\lz4hc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\lz4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\lz4hc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\lz4opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3D\Source\ThirdParty\LZ4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E1ED2DB-232A-3909-8632-670AF8FF310E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4556C2F0-FE7C-3ED7-8977-3A66CFFF2FB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

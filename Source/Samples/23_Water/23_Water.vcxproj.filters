@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\Samples\23_Water\Water.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\Samples\23_Water\Water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\Samples\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\Samples\Sample.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3D\Source\Samples\23_Water\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\GitHub\Urho3D\bin\CoreData">
+      <Filter>Resource Dirs</Filter>
+    </None>
+    <None Include="F:\GitHub\Urho3D\bin\Data">
+      <Filter>Resource Dirs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E1ED2DB-232A-3909-8632-670AF8FF310E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Dirs">
+      <UniqueIdentifier>{E369CE5F-343B-33AC-960C-26F6D14F05CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4556C2F0-FE7C-3ED7-8977-3A66CFFF2FB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

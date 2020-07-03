@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/GitHub/Urho3D/Source/ThirdParty/Assimp/CMakeLists.txt
+F:/GitHub/Urho3D/Source/ThirdParty/Assimp/contrib/zlib/zconf.h.cmakein
+F:/GitHub/Urho3D/Source/ThirdParty/Assimp/include/assimp/config.h.in
+F:/GitHub/Urho3D/Source/ThirdParty/Assimp/revision.h.in

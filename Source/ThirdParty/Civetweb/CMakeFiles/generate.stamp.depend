@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckSymbolExists.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/Civetweb/CMakeLists.txt

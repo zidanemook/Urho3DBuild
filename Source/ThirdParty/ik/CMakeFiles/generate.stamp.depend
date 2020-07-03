@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFiles.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/ik/CMakeLists.txt
+F:/GitHub/Urho3D/Source/ThirdParty/ik/include/ik/config.h.in
+F:/GitHub/Urho3D/Source/ThirdParty/ik/include/ik/export.h.in

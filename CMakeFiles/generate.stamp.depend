@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.18/Templates/CPackConfig.cmake.in
+F:/GitHub/Urho3D/CMake/Modules/CheckCompilerToolchain.cmake
+F:/GitHub/Urho3D/CMake/Modules/CheckHost.cmake
+F:/GitHub/Urho3D/CMake/Modules/FindDirectX.cmake
+F:/GitHub/Urho3D/CMake/Modules/GenerateExportHeader.cmake
+F:/GitHub/Urho3D/CMake/Modules/UrhoCommon.cmake
+F:/GitHub/Urho3D/CMakeLists.txt
+F:/GitHub/Urho3DBuild/CMakeFiles/3.18.0-rc2/CMakeCCompiler.cmake
+F:/GitHub/Urho3DBuild/CMakeFiles/3.18.0-rc2/CMakeCXXCompiler.cmake
+F:/GitHub/Urho3DBuild/CMakeFiles/3.18.0-rc2/CMakeRCCompiler.cmake
+F:/GitHub/Urho3DBuild/CMakeFiles/3.18.0-rc2/CMakeSystem.cmake

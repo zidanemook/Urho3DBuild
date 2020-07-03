@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\asm-bits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\cpuid_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\msrdriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\rdmsr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\rdtsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\recog_amd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\recog_intel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\amd_code_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\asm-bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\intel_code_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\libcpuid_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\rdtsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\recog_amd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\recog_intel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GitHub\Urho3DBuild\CMakeFiles\aed80d7876c336119ce8294dc156e56c\masm-x64.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="F:\GitHub\Urho3D\Source\ThirdParty\LibCpuId\src\masm-x64.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\GitHub\Urho3DBuild\Source\ThirdParty\LibCpuId\masm-x64.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87D4A0F5-B55B-3A6F-9752-49268B073229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2E1ED2DB-232A-3909-8632-670AF8FF310E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{9C2DBB71-2793-363E-A188-840345E77352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4556C2F0-FE7C-3ED7-8977-3A66CFFF2FB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

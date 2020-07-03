@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeASMInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeASM_MASMInformation.cmake
+F:/GitHub/Urho3D/Source/ThirdParty/LibCpuId/CMakeLists.txt
+F:/GitHub/Urho3DBuild/CMakeFiles/3.18.0-rc2/CMakeASM_MASMCompiler.cmake
